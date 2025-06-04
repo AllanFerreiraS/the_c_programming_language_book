@@ -19,7 +19,7 @@ int main() {
 
     for (int j = 0; j < MAXLINE; j++)
         input[j] = '\0';
-    
+
     while(i < MAXLINE - 2 && (c = getchar()) != '\n') {
         if (c == '\t') {
             tab_next_stop = TAB_COLLUM - (i % TAB_COLLUM);
@@ -37,7 +37,7 @@ int main() {
     }
 
     input[i] = '\n';
-    
+
     if (i > 0)
         printf("%s", input);
 

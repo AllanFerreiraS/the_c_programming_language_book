@@ -34,7 +34,7 @@ gcc -o exercise_1_1.c ex-1-1.c
 - [ ] Chapter 6
 - [ ] Chapter 7
 - [ ] Chapter 8
-...
+```
 
 
 ## 🌟 Highlighted Exercises

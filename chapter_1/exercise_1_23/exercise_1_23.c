@@ -11,15 +11,13 @@ C comments don't nest.
     [2] original.c -> copia -> .temp.c                                      (X)
     [3] .temp.c -> [processos] -> novo.c                                    (x)
     [4] novo.c -> copia -> .temp.c                                          (x)
-    [5] passo 3 e 4 repetem até todo o processo ser finalizado.             ()
     PS: .temp.c deve ser igual ao novo.c para não haver conflitos.
 */
 
 /*
     FEATURES:
     1: Poder passar mais de um arquivo como parâmetro para o main.
-    2: Parametro para salvar mudanças no arquivo original.
-    3: Parametros para escolher remover somente '//' ou comentarios de mais de uma linha.
+    2: Parametros para escolher remover somente '//' ou comentarios de mais de uma linha.
 */
 
 #include <stdio.h>

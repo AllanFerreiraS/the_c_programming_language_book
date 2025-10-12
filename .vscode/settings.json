@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.dbclient-js": "javascript",
+        "exercise_1_23_source.h": "c"
+    }
+}
